@@ -2,13 +2,13 @@ package main
 
 import (
 	"flag"
+	"github.com/birdland007s/trace"
 	"html/template"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"sync"
-	"trace"
 )
 
 type templateHandler struct {
